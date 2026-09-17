@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muza Aulia Sari — Portofolio Personal</title>
+  <meta name="description"
+    content="Portofolio personal Muza Aulia Sari, siswi SMKN Tembarak kelas 11 RL C jurusan Rekayasa Perangkat Lunak (RPL), Temanggung, Jawa Tengah.">
+
+  <!-- Typography: Editorial Text Serif for Headings & Modern Sans-Serif for Body -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+    rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- =========================================================================
+       1. NAVBAR
+       ========================================================================= -->
+  <header class="site-header" id="header">
+    <div class="header-container">
+      <a href="#hero" class="brand-logo" aria-label="Muza Aulia Sari Beranda">
+        MUZA AULIA SARI
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-menu" aria-label="Navigasi Utama">
+        <ul class="nav-list">
+          <li><a href="#tentang" class="nav-link">Tentang Saya</a></li>
+          <li><a href="#profil" class="nav-link">Profil</a></li>
+          <li><a href="#keahlian" class="nav-link">Keahlian</a></li>
+          <li><a href="#hobi" class="nav-link">Hobi</a></li>
+          <li><a href="#kontak" class="nav-link nav-link-highlight">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu navigasi" aria-expanded="false"
+        aria-controls="mobileDrawer">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+      <div class="mobile-drawer-inner">
+        <nav class="mobile-nav" aria-label="Navigasi Mobile">
+          <ul class="mobile-nav-list">
+            <li><a href="#tentang" class="mobile-nav-link">Tentang Saya</a></li>
+            <li><a href="#profil" class="mobile-nav-link">Profil</a></li>
+            <li><a href="#keahlian" class="mobile-nav-link">Keahlian</a></li>
+            <li><a href="#hobi" class="mobile-nav-link">Hobi</a></li>
+            <li><a href="#kontak" class="mobile-nav-link">Kontak</a></li>
+          </ul>
+        </nav>
+        <div class="mobile-drawer-meta">
+          <p class="mobile-meta-sub">SMKN Tembarak · 11 RL C</p>
+          <p class="mobile-meta-city">Temanggung, Jawa Tengah</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================================
+         2. HERO SECTION
+         ========================================================================= -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+
+        <div class="hero-tag-wrap reveal">
+          <span class="hero-pill-badge">Student • RPL • Creative Learner</span>
+        </div>
+
+        <h1 class="hero-title reveal">
+          MUZA AULIA SARI
+        </h1>
+
+        <p class="hero-description reveal">
+          Pelajar Rekayasa Perangkat Lunak yang suka belajar, memasak, dan mencoba hal-hal baru.
+        </p>
+
+        <div class="hero-actions reveal">
+          <a href="#tentang" class="btn btn-primary" id="cta-kenali">Kenali Saya</a>
+          <a href="#profil" class="btn btn-ghost" id="cta-profil">Lihat Profil</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         3. TENTANG SAYA
+         ========================================================================= -->
+    <section class="section section-tentang" id="tentang">
+      <div class="container">
+
+        <div class="section-label-wrap reveal">
+          <span class="section-badge">Tentang Saya</span>
+        </div>
+
+        <div class="tentang-content-box reveal">
+          <h2 class="section-title tentang-title">Tentang Saya</h2>
+          <p class="tentang-lead">
+            “Hallo, aku Muza Aulia Sari dari SMKN Tembarak. Saya dari jurusan Rekayasa Perangkat Lunak. Saya pribadi
+            yang suka mengubah ide sederhana menjadi sesuatu yang visual dan bermakna. Bagi saya, belajar adalah hobi
+            yang tidak pernah membosankan.”
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         4. PROFIL / DATA DIRI
+         ========================================================================= -->
+    <section class="section section-profil" id="profil">
+      <div class="container">
+
+        <div class="section-label-wrap reveal">
+          <span class="section-badge">Data Diri</span>
+        </div>
+
+        <h2 class="section-title reveal">Profil</h2>
+
+        <div class="profile-cards-grid reveal">
+
+          <!-- Card 1: Nama -->
+          <article class="profile-card">
+            <span class="profile-card-label">Nama</span>
+            <p class="profile-card-value">Muza Aulia Sari</p>
+          </article>
+
+          <!-- Card 2: Asal Sekolah -->
+          <article class="profile-card">
+            <span class="profile-card-label">Asal Sekolah</span>
+            <p class="profile-card-value">SMKN Tembarak</p>
+          </article>
+
+          <!-- Card 3: Kelas -->
+          <article class="profile-card">
+            <span class="profile-card-label">Kelas</span>
+            <p class="profile-card-value">11 RL C</p>
+          </article>
+
+          <!-- Card 4: Jurusan -->
+          <article class="profile-card">
+            <span class="profile-card-label">Jurusan</span>
+            <p class="profile-card-value">Rekayasa Perangkat Lunak (RPL)</p>
+          </article>
+
+          <!-- Card 5: Domisili -->
+          <article class="profile-card profile-card-wide">
+            <span class="profile-card-label">Domisili</span>
+            <p class="profile-card-value">Temanggung, Jawa Tengah</p>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         5. KEAHLIAN
+         ========================================================================= -->
+    <section class="section section-keahlian" id="keahlian">
+      <div class="container">
+
+        <div class="section-label-wrap reveal">
+          <span class="section-badge">Keahlian</span>
+        </div>
+
+        <h2 class="section-title reveal">Keahlian Saya</h2>
+
+        <div class="skill-main-card reveal">
+          <div class="skill-accent-pill">
+            <span class="skill-pill-indicator"></span>
+            Keahlian Utama
+          </div>
+          <h3 class="skill-title">Memasak</h3>
+          <p class="skill-description">
+            “Memasak adalah salah satu keahlian yang saya sukai karena membuat saya bisa berkreasi, mencoba berbagai
+            hal, dan menghasilkan sesuatu yang bisa dinikmati.”
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         6. HOBI
+         ========================================================================= -->
+    <section class="section section-hobi" id="hobi">
+      <div class="container">
+
+        <div class="section-label-wrap reveal">
+          <span class="section-badge">Kegiatan & Minat</span>
+        </div>
+
+        <h2 class="section-title reveal">Hobi Saya</h2>
+
+        <div class="hobi-grid">
+
+          <!-- Hobi Card 1: Memasak (Bg Putih) -->
+          <article class="hobi-card hobi-card-white reveal">
+            <div class="hobi-number-tag">01</div>
+            <h3 class="hobi-card-title">Memasak</h3>
+            <p class="hobi-card-desc">
+              Memasak merupakan aktivitas yang saya senangi karena menjadi ruang untuk berekspresi, meracik cita rasa
+              baru, dan menjadi bagian berharga dari proses belajar yang berkelanjutan.
+            </p>
+          </article>
+
+          <!-- Hobi Card 2: Mencoba Hal Baru (Bg Sekunder #f7f7f7) -->
+          <article class="hobi-card hobi-card-secondary reveal">
+            <div class="hobi-number-tag">02</div>
+            <h3 class="hobi-card-title">Mencoba Hal Baru</h3>
+            <p class="hobi-card-desc">
+              Mengeksplorasi wawasan dan kegiatan baru adalah cara saya memperluas sudut pandang. Menghadapi tantangan
+              baru selalu menjadi pengalaman belajar yang menyenangkan dan membuka peluang bertumbuh.
+            </p>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         7. PERSONAL STATEMENT
+         ========================================================================= -->
+    <section class="section section-statement" id="statement">
+      <div class="container">
+        <div class="statement-card reveal">
+          <blockquote class="statement-quote">
+            “Saya percaya bahwa setiap proses belajar, sekecil apa pun, bisa menjadi langkah menuju versi diri yang
+            lebih baik.”
+          </blockquote>
+          <cite class="statement-author">— Muza Aulia Sari</cite>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         8. MOTIVASI
+         ========================================================================= -->
+    <section class="section section-motivasi" id="motivasi">
+      <div class="container motivasi-container reveal">
+
+        <div class="section-label-wrap">
+          <span class="section-badge">Inspirasi</span>
+        </div>
+
+        <h2 class="section-title motivasi-title">Motivasi</h2>
+
+        <div class="motivasi-highlight-wrap">
+          <p class="motivasi-statement">
+            “Kerja kerasmu hari ini adalah tabungan untuk tenangnya masa depan.”
+          </p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       9. FOOTER
+       ========================================================================= -->
+  <footer class="site-footer" id="kontak">
+    <div class="container footer-container">
+
+      <div class="footer-top reveal">
+        <div class="footer-brand-info">
+          <h3 class="footer-name">Muza Aulia Sari</h3>
+          <p class="footer-role">Student of Rekayasa Perangkat Lunak — SMKN Tembarak</p>
+          <p class="footer-motto">“Belajar, berkembang, dan terus mencoba hal baru.”</p>
+        </div>
+
+        <div class="footer-actions">
+          <a href="#hero" class="footer-back-top" aria-label="Kembali ke atas">
+            Kembali ke Atas ↑
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom reveal">
+        <p class="footer-domisili">Temanggung, Jawa Tengah</p>
+        <p class="footer-copyright">© 2026 Muza Aulia Sari · SMKN Tembarak</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Core JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
